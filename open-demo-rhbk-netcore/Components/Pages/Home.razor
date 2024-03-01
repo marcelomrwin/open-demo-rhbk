@@ -1,0 +1,18 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Dashboard - I'm a .Net Core 8 Application</h1>
+
+<AuthorizeView>
+    <Authorized>
+        <p class="alert alert-success"><i class="bi bi-emoji-smile" style="font-size: 2rem;"></i><br/> Welcome, @context.User.Identity?.Name!</p>
+    </Authorized>
+    <NotAuthorized>
+        <p class="alert alert-warning">
+            <i class="bi bi-emoji-frown" style="font-size: 2rem;"></i>
+            <br/>Hello, I do not know who you are<br/>Please, introduce yourself
+        </p>
+        <button onclick="location.href = 'Account/Login';" class="btn btn-primary">Login</button>
+    </NotAuthorized>
+</AuthorizeView>

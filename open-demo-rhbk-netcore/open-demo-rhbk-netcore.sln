@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "open-demo-rhbk-netcore", "open-demo-rhbk-netcore.csproj", "{9A74A959-CAA9-47B8-B7BF-D442572B75E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A74A959-CAA9-47B8-B7BF-D442572B75E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A74A959-CAA9-47B8-B7BF-D442572B75E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A74A959-CAA9-47B8-B7BF-D442572B75E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A74A959-CAA9-47B8-B7BF-D442572B75E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
