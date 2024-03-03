@@ -1,0 +1,8 @@
+{
+  "realm": "redhat-demo",
+  "auth-server-url": "https://rhbk-redhat-demo.apps.ocp4.masales.cloud/",
+  "ssl-required": "external",
+  "resource": "frontend",
+  "public-client": true,
+  "confidential-port":0
+}
